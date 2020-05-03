@@ -9,11 +9,12 @@
 ## Steps to test the application
 - Once services start, you can go to H2 Console **(http://localhost:8000/h2-console)** and login. You may need to change the jdbc url while login as **jdbc:h2:mem:testdb** and can connect without providing any password. Then you can see the below entries into **COUNTRYDETAILS** table.
 
-      | COUNTRY_ID | CAPITAL | CONTINENT | NAME | POPULATION  |
-      |------------|---------|-----------|------|-------------|
-      |44 | London |	Europe | UK | 66M |
-      |86 |	Beijing|	Asia	| China | 140B |
-      |91 |	Delhi	| Asia | India |	130B |
+  | COUNTRY_ID | CAPITAL | CONTINENT | NAME | POPULATION |
+  |------------|---------|-----------|------|------------|
+  | 44 | London | Europe | UK | 66M |
+  | 86 | Beijing | Asia | China | 140B |
+  | 91 | Delhi | Asia | India | 130B |
+
 
 - If you want to save new country details, then hit the below URL with method body,
 
@@ -28,7 +29,7 @@
          "continent": "Europe",
          "population": "65M"
        }
-       ```
+       
     
     
 - If you want to retrieve country details then hit the below URL with country_id (you can do it either using countryclient service or userdata service)
