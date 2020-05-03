@@ -13,7 +13,7 @@
 |------------|---------|-----------|------|-------------|
 |44 | London |	Europe | UK | 66M |
 |86 |	Beijing|	Asia	| China | 140B |
-|91 |	Delhi	Asia | India |	130B |
+|91 |	Delhi	| Asia | India |	130B |
 
 - If you want to save new country details, then hit the below URL with method body,
 
