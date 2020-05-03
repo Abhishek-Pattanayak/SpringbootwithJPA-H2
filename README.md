@@ -11,8 +11,11 @@ Once services start, you can go to H2 Console (http://localhost:8000/h2-console)
 
 If you want to save new country details, then hit the below URL with method body,
 
+
 http://localhost:8000/country/detail/save
-	  {
+
+
+   {
       "country_id": 33,
       "name": "France",
       "capital": "Paris",
@@ -20,9 +23,16 @@ http://localhost:8000/country/detail/save
       "population": "65M"
     }
     
+    
 If you want to retrieve country details then hit the below URL with country_id (you can do it either using countryclient service or userdata service)
+
+
 Using countryclient service
+
+
 http://localhost:8000/country/detail/33
 
 Using userdata service
+
+
 http://localhost:8001/user/country/detail/91
